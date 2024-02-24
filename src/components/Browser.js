@@ -1,12 +1,20 @@
-import React from 'react'
+import React, {  } from 'react'
 import Header from './Header'
+import useNowPlaying from '../utils/hooks/useNowPlaying'
+import MainContainer from './MainContainer';
 
 
 const Browser = () => {
- 
+
+  useNowPlaying();
 
   return (
-   <Header/>
+    <div>
+     <Header/>
+     <MainContainer/>
+
+    </div>
+  
   )
 }
 
