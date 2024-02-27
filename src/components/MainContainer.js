@@ -6,10 +6,10 @@ import VideoBackground from './VideoBackground';
 const MainContainer = () => {
     const movies = useSelector(store => store.movie?.nowPlayingMovies);
     if(!movies) return ;
-    const mainMovie = movies[0];
+    const mainMovie = movies[1];
     const {title , overview,id} = mainMovie;
   return (
-    <div>
+    <div className="pt-[30%] bg-black md:pt-0">
         <VideoTitle title ={title } overview = {overview} />
         <VideoBackground movieId ={id}/>
     </div>

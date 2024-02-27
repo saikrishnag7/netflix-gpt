@@ -3,7 +3,14 @@ import GptSearchBar from './GptSearchBar'
 import GptMovieSuggestions from "./GptMovieSuggestions"
 import { banner } from '../utils/constants'
 
+
+
+
 const GptSearch = () => {
+
+
+ 
+ 
   return (
     <>
     <div className="fixed -z-10">

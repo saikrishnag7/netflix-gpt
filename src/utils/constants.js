@@ -9,5 +9,6 @@ export const API_OPTIONS = {
     }
   };
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+  export const OPENAI_key = "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";
 
   
